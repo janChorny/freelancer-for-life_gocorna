@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+
+:root {
+	--first-font:'Rubik', sans-serif;
+	--second-font:'Raleway', sans-serif;
+	--first-bgcolor: #FAFBFD;
+	--second-bgcolor: #FFFFFF;
+	--first-txtcolor: #616161;
+	--second-txtcolor: #000000;
+	--third-txtcolor: #EC5863;
+	--forth-txtcolor: #4285F4;
+	--fifth-txtcolor: #FFFFFF;
+}
+
+/* Null stile */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	background: #fafafa;
+	color: var(--first-txtcolor);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 138.5%;
+	font-family: var(--first-font);
+}
+/* ---------------------------------------------------------------------------- */
