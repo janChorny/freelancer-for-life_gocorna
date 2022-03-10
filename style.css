@@ -373,5 +373,42 @@ body {
 }
 .stay__description-button {
 }
+/* Counter----------------------------------------------------------------------- */
+.counter {
+	background-color: var(--first-bgcolor);
+	padding: 103.93px 0px 79.07px 0px;
+}
+.counter__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto 0 auto;
+	max-width: 654px;
+	background-color: var(--fifth-txtcolor);
+	padding: 28px 80px;
+	box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+	border-radius: 16px;
+}
+.counter__block {
+}
+.counter__title {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 3.583rem;
+	letter-spacing: 0.14em;
+	text-align: center;
+	color: var(--third-txtcolor);
+	margin-bottom: 5px;
+}
+.counter__subtitle {
+	text-align: center;
+	font-weight: 700;
+	font-size: 0.9166rem;
+	line-height: 1.0833rem;
+	letter-spacing: 0.37em;
+	text-transform: uppercase;
+	color: var(--second-txtcolor);
+}
 /* Talk----------------------------------------------------------------------- */
 /* Footer----------------------------------------------------------------------- */
