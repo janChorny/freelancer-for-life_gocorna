@@ -126,7 +126,7 @@ body {
 		flex-direction: column;
 		align-items:flex-start;
 		width: 100vw;
-		height: 550px;
+		height: 600px;
 		background-color: var(--second-bgcolor);
 		z-index: 3;
 		margin: 0px;
