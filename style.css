@@ -595,6 +595,7 @@ body {
 /* Footer----------------------------------------------------------------------- */
 
 .footer {
+	position: relative;
 	padding: 79.59px 0px 40px 0px;
 }
 @media (max-width:900px){
@@ -744,4 +745,9 @@ body {
 	.footer__play:first-child {
 	margin-right: 0px;
 }
+}
+.w3c {
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
